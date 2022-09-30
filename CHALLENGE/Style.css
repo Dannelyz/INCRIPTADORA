@@ -1,0 +1,178 @@
+*{
+    margin: 0.1%;
+    padding: 0%;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: 647px;
+    display: flex ;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 100%;
+}
+
+.section1{
+    width: 75%;
+}
+
+.area{
+    width:80%;
+    height:70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+}
+
+
+.bttn_ncp {
+    width: 25%;
+    height: 40px ;
+    border-color: rgb(4, 35, 136) ;
+    background-color:rgb(255, 255, 255); 
+    border-radius: 10px 60px 10px 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight:bold;
+}
+.bttn_dncp{
+    width: 25%;
+    height: 40px ;
+    border-color: rgb(4, 35, 136) ;
+    background-color:rgb(255, 255, 255);
+    border-radius:60px 10px 70px 10px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight: bold;
+}
+
+.bttn_ncp:hover{
+    border-radius: 60px 10px 70px 10px;
+    border-color: rgb(4, 35, 136) ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight: bold;
+}
+
+.bttn_dncp:hover{
+    border-radius: 10px 60px 10px 70px;
+    border-color: rgb(4, 35, 136) ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight: bold;
+}
+
+
+.section2{
+    width: 25%;
+    background-color: rgb(234, 247, 248); 
+    border-color: black;
+    border-width: 1.9;
+    border-style: solid;
+    margin-right: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px 60px 10px 70px;
+}
+
+.contenedor_bttn{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.contenedor_muheco{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contenedor_H3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor_parrafo{
+    width: 100%;
+    height: 20%;
+
+}
+
+.cont_resultado{
+    width: 100%;
+    height:70% ;
+    padding-top: 20px;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight:bold;
+}
+
+.txt_resultado{
+
+   width: 85%; 
+   margin-inline: 1.8rem;
+   margin-top: 2rem;
+   height: 70%;
+   border: 0%;
+   resize: none;
+   border: none;
+   outline: none;
+   background-color: rgb(234, 247, 248); 
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   
+}
+
+.cont_copy{
+  width: 100%;
+    height: 20%; 
+    
+}
+
+.bttn_copy{
+width: 50%;
+height: 40px;
+margin: auto;
+box-sizing: border-box;
+border-color: rgb(4, 35, 136) ;
+background-color:rgb(255, 255, 255); 
+border-radius: 10px 60px 10px 70px;
+font-family: 'Courier New', Courier, monospace;
+font-size:large ;
+font-weight: bold;
+}
+
+.bttn_copy:hover{
+   
+    border-radius: 60px 10px 70px 10px;
+    border-color: rgb(4, 35, 136) ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large ;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height:50px ;
+    /* background-color: rgb(127, 180, 127); */
+}
+
+.ocultar{
+    display: none;
+}
